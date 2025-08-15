@@ -1,0 +1,28 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"attributes": {
+		"text1": {
+			"type": "string"
+		},
+		"link1": {
+			"type": "string"
+		},
+		"image1": {
+			"type": "object"
+		}
+	},
+	"name": "blocktheme/block-1-static",
+	"version": "0.1.0",
+	"title": "Block 1 static",
+	"category": "widgets",
+	"icon": "hammer",
+	"description": "",
+	"example": {},
+	"supports": {
+		"html": false
+	},
+	"textdomain": "blocktheme",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css"
+}

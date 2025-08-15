@@ -1,0 +1,16 @@
+/**
+ * Styles only for block in editor view
+ */
+.wp-block-blocktheme-block-1-static{
+    border: 1px solid #f9f9f9;
+    background-color: #f9f9f9;
+}
+.wp-block-blocktheme-block-1-static p:empty:before,
+.wp-block-blocktheme-block-1-static p:has(img[src='']):before{
+    content: attr(title, '...');
+    opacity: 0.5;
+    font-style: italic;
+}
+.wp-block-blocktheme-block-1-static img[src='']{
+    display: none;
+}
